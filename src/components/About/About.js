@@ -1,7 +1,8 @@
 import React from 'react';
 
-function About() {
+const About = () => {
   return (
+    <>
     <section className="my-5">
       <div className="my-2">
         <div className="profile-img my-5">
@@ -15,6 +16,7 @@ function About() {
         </p>
       </div>
     </section>
+    </>
   );
 }
 
