@@ -90,8 +90,8 @@ const About = () => {
           {images.map((step, index) => (
             <div key={step.label}>
               {Math.abs(activeStep - index) <= 2 ? (
-                <Button href={step.link} target="_blank" rel="noopener noreferrer">
-                <Box
+                <Button href={step.link} target="_blank" rel="noopener noreferrer" style={{ background: '#000', display: 'block' }}>
+                  <Box
                   component="img"
                   sx={{
                     height: 500,
