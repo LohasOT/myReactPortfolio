@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Cat from "./assets/cover/code_cat_hq.mp4";
+import About from "./components/About/About"
 import "./App.css"
 
 
@@ -9,13 +9,14 @@ function App() {
   return (
     <>
     <section>
-        <video id="video" autoPlay loop muted>
-          <source src={Cat} type="video/mp4"/>
-        </video>
-    <Navbar>
-      </Navbar>
-    <Footer>
-    </Footer>
+    <Navbar></Navbar>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+    <About></About>
+    <Footer></Footer>
     </section >
     </>
   );
