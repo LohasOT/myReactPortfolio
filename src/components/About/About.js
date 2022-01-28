@@ -2,7 +2,6 @@ import React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import "./About.css";
 import { useTheme } from '@mui/material/styles';
 import MobileStepper from '@mui/material/MobileStepper';
 import Paper from '@mui/material/Paper';
@@ -12,6 +11,10 @@ import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
+import myPicture from '../../assets/cover/pic.jpg'
+import Grid from '@mui/material/Grid';
+import { styled } from '@mui/material/styles';
+import "./About.css";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -59,103 +62,44 @@ const About = () => {
   const handleStepChange = (step) => {
     setActiveStep(step);
   };
-  
+
+  const Item = styled(Paper)(({ theme }) => ({
+    ...theme.typography.body2,
+    padding: theme.spacing(1),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  }));
+
   return (
     <>
-    <Container>
-        <div>
-          <h1>Welcome To My Portfolio</h1>
+    <Container className="opening">
+        <div className='opening' style={{ color: 'white' }}>
+          <h2>Hi, my name is</h2>
+          <h1>Oliver Hoang</h1>
+          <h1 style={{ opacity: .5}}>Full-Stack Web Developer</h1>
+          <h2>An experienced coding bootcamp graduate with extensive background in Javascript and developing mobile friendly web applications. </h2>
         </div>
-        
-      <Box lg={{ maxWidth: 400, flexGrow: 1 }}>
-        <Paper
-          square
-          elevation={0}
-          sm={{
-            display: 'flex',
-            alignItems: 'center',
-            height: 50,
-            pl: 2,
-            bgcolor: 'background.default',
-          }}
-        >
-          <Typography style={{ textAlign: "center", fontSize: 50 }}>{images[activeStep].label}</Typography>
-        </Paper>
-        <AutoPlaySwipeableViews
-          axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
-          index={activeStep}
-          onChangeIndex={handleStepChange}
-          enableMouseEvents
-        >
-          {images.map((step, index) => (
-            <div key={step.label}>
-              {Math.abs(activeStep - index) <= 2 ? (
-                <Button href={step.link} target="_blank" rel="noopener noreferrer" style={{ background: '#000', display: 'block' }}>
-                  <Box
-                  component="img"
-                  sx={{
-                    height: 500,
-                    display: 'block',
-                    maxWidth: 1200,
-                    overflow: 'hidden',
-                    width: '100%',
-                  }}
-                  src={step.imgPath}
-                  alt={step.label}
-                />
-                </Button>
-              ) : null}
-            </div>
-          ))}
-        </AutoPlaySwipeableViews>
-        <MobileStepper
-          steps={maxSteps}
-          position="static"
-          activeStep={activeStep}
-          nextButton={
-            <Button
-              size="small"
-              onClick={handleNext}
-              disabled={activeStep === maxSteps - 1}
-            >
-              Next
-              {theme.direction === 'rtl' ? (
-                <KeyboardArrowLeft />
-              ) : (
-                <KeyboardArrowRight />
-              )}
-            </Button>
-          }
-          backButton={
-            <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
-              {theme.direction === 'rtl' ? (
-                <KeyboardArrowRight />
-              ) : (
-                <KeyboardArrowLeft />
-              )}
-              Back
-            </Button>
-          }
-        />
-      </Box>
+    </Container>
+    <Container className="empty"></Container>
+    <Container className="about">
+        <h1>1. About Me <hr></hr></h1>
+        <Grid className="about" container spacing={2}>
+          <Grid className="about" item xs={5} md={5}>
+            <Item className="about">
+              <main xs={5}>
+              <h2>I am an experienced coding bootcamp graduate with extensive background in Javascript, HTMLContainer, CSS, developing mobile friendly web applications, and building websites from the ground up. Professional strengths include creative problem-solving, written and verbal communication, and time management.</h2>
+            </main>
+            </Item >
+          </Grid>
+          <Grid className="about" item xs={7} md={7}>
+            <Item className="about">
+              <img src={myPicture} xs={7} md={7} />
+            </Item>
+          </Grid>
+        </Grid>
       </Container>
       <br></br>
       <br></br>
-      <Container fluid>
-      <main className="my-5">
-      <div className="my-2">
-        <div className="profile-img my-5">
-          <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
-        </div>
-        <h3>
-          Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter plaid direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard Carles you probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut paleo scenester
-        </h3>
-        <h3>
-          Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't heard of them American Apparel next level pug ugh.
-        </h3>
-      </div>
-    </main>
-    </Container>
     </>
   );
 }
