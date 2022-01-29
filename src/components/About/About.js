@@ -7,7 +7,7 @@ const About = () => {
 
   return (
     <>
-    <Container className="container flex">
+    <Container fluid>
     <div className="opening">
         <div className='opening'>
           <h2>Hi, my name is</h2>
@@ -18,7 +18,7 @@ const About = () => {
     </div>
     <div className="empty"></div>
     </Container>
-    <Container className="aboutMe">
+    <Container fluid className="aboutMe">
     <Row>
       <h1 className='title'>1. About Me <hr></hr></h1>
     <Col xs={6}>

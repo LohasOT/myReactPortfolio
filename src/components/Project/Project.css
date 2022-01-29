@@ -1,0 +1,28 @@
+.button {
+  padding: 5px;
+}
+
+.card {
+  background-color: #ccd6f6;
+  width: 30rem;
+}
+
+.title {
+  color: #ccd6f6;
+}
+
+.card2 {
+  background-color: #ccd6f6;
+  width: 30rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .card {
+    width: 18rem;
+  }
+
+  .card2 {
+    width: 18rem;
+  }
+}
