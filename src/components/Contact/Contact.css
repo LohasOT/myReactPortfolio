@@ -1,0 +1,28 @@
+.title3 {
+  text-align: center;
+  color: #21fdd1;
+}
+
+.miniTitle {
+  text-align: center;
+}
+
+.form1 {
+  text-align: center;
+}
+
+.buttonBox {
+  margin-left: 55px;
+}
+
+.contactInfo {
+  text-align: center;
+  color: #21fdd1;
+}
+
+@media only screen and (max-width: 600px) {
+  .buttonBox {
+    margin-left: 0;
+    margin-right: 50px;
+  }
+}

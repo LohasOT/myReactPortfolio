@@ -19,6 +19,9 @@ const Project = () => {
 
 
        {/* card 1 */}
+    <Row>
+    <Col xs={0} md={1}></Col>
+      <Col xs={12} md={7}>
         <Card className='card'>
           <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
@@ -30,6 +33,9 @@ const Project = () => {
             <a className='button' rel="noopener noreferrer" target="_blank" href="https://github.com/LohasOT/bartering"><Button variant="secondary">Github Repo</Button></a>
           </Card.Body>
         </Card>
+        </Col>
+      <Col xs={0} md={4}  ></Col>
+    </Row>
 
 
         <br></br><br></br>
@@ -57,6 +63,9 @@ const Project = () => {
 
 
         {/* card 3 */}
+      <Row>
+        <Col xs={0} md={1}></Col>
+        <Col xs={12} md={7}>
         <Card className='card'>
           <Card.Img variant="top" src="https://user-images.githubusercontent.com/93016157/144180815-ed7b2f82-88bb-4c49-85c9-5bc75bf7c9cf.png" />
           <Card.Body>
@@ -68,6 +77,9 @@ const Project = () => {
             <a className='button' rel="noopener noreferrer" target="_blank" href="https://github.com/LohasOT/project-ghoat"><Button variant="secondary">Github Repo</Button></a>
           </Card.Body>
         </Card>
+        </Col>
+        <Col xs={0} md={4}  ></Col>
+      </Row>
     <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
     <div>
     <h1 className='title2'>Other Noteworthy Works</h1>
@@ -122,7 +134,7 @@ const Project = () => {
           </Card>
         </CardGroup>
   </Container>
-
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
   </>
   );
 }
