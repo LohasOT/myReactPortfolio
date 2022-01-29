@@ -11,11 +11,30 @@
   color: #ccd6f6;
 }
 
+.title2 {
+  color: #ccd6f6;
+  text-align: center;
+  font-size: 75px;
+}
+
 .card2 {
   background-color: #ccd6f6;
   width: 30rem;
 }
 
+.tags {
+  color: #ff9900;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card3{
+  margin: 5px;
+}
 @media only screen and (max-width: 600px) {
 
   .card {
@@ -28,5 +47,9 @@
     margin-left: auto;
     margin-right: auto;
     width: 18rem;
+  }
+
+  .title2 {
+    font-size: 40px;
   }
 }

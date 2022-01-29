@@ -14,7 +14,7 @@ const About = () => {
           <h2>Hi, my name is</h2>
           <h1>Oliver Hoang</h1>
           <h1 className="descript">Full-Stack Web Developer</h1>
-          <h2>An experienced coding bootcamp graduate with extensive background in Javascript and developing mobile friendly web applications. </h2>
+          <h2>An experienced coding bootcamp graduate with extensive background in Javascript, developing, and building mobile first web applications. </h2>
         </div>
     </div>
     <div className="empty"></div>
