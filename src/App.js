@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
+import Appbar from "./components/Navbar/Appbar";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About"
 import "./App.css"
@@ -9,12 +9,7 @@ function App() {
   return (
     <>
     <section>
-    <Navbar></Navbar>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+    <Appbar></Appbar>
     <About></About>
     <Footer></Footer>
     </section >

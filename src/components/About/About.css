@@ -7,6 +7,11 @@ h1 {
   color: #96e2ec;
 }
 
+.container {
+  max-width: 80%;
+  background-color: #0E3B43;
+}
+
 .opening {
   margin-top: 150px;
 }
@@ -28,10 +33,11 @@ h1 {
   max-height: 100px; */
 }
 
+
 @media only screen and (max-width: 600px) {
-.picture {
-  max-width: 100px;
-  max-height: 100px;
+  .picture {
+    max-width: 100px;
+    max-height: 100px;
   }
 
 }
