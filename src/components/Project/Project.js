@@ -1,27 +1,18 @@
 import React from 'react';
 
+import { Navbar, Nav, NavDropdown, Container, Image, Row, Col } from 'react-bootstrap';
 
-function Project({ project }) {
-
-  const { name, repo, link, description } = project;
-
+const Project = () => {
   return (
-    <div className="project" key={name}>
-      <img
-        src={require(`../../assets/projects/${name}.jpg`)}
-        alt= ""
-        className="project-bg"
-      />
-      <div className="project-text">
-        <h3>
-          <a href={link}>{}</a>{' '}
-          <a href={repo}>
-            <i className="fab fa-github"></i>
-          </a>
-        </h3>
-        <p>{description}</p>
-      </div>
-    </div>
+  <>
+  
+  <Container></Container>
+
+  <h1 className='title'>1. About Me <hr></hr></h1>
+  </>
+
+  </Container >
+
   );
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Appbar.css';
-import { Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 
 
 window.onscroll = function (e) {
@@ -19,10 +19,9 @@ window.onscroll = function (e) {
 
 
 const Appbar = () => {
-
   return (
     <>
-      <Navbar id="nav">
+      <Navbar id="nav" expand="lg">
         <Container>
           <Navbar.Brand className="name" href="#home">Oliver Hoang</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
