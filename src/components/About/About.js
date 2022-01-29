@@ -12,7 +12,7 @@ const About = () => {
         <div className='opening' style={{ color: 'white' }}>
           <h2>Hi, my name is</h2>
           <h1>Oliver Hoang</h1>
-          <h1 style={{ opacity: .5}}>Full-Stack Web Developer</h1>
+          <h1 className="descript">Full-Stack Web Developer</h1>
           <h2>An experienced coding bootcamp graduate with extensive background in Javascript and developing mobile friendly web applications. </h2>
         </div>
     </div>

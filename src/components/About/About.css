@@ -4,7 +4,7 @@ h2 {
 
 h1 {
   font-size: 100px;
-  color: #96e2ec;
+  color: #ccd6f6;
 }
 
 .container {
@@ -33,6 +33,9 @@ h1 {
   max-height: 100px; */
 }
 
+.descript {
+  color: #a8b2d1;
+}
 
 @media only screen and (max-width: 600px) {
   .picture {
