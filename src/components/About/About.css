@@ -37,8 +37,8 @@ h1 {
 }
 
 .picture {
-  max-width: 75%;
-  max-height: 75%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .descript {
@@ -64,8 +64,8 @@ h1 {
   }
 
   .picture {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 200%;
+    max-height: 200%;
   }
 
   .para {
