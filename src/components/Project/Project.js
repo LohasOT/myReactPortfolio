@@ -67,7 +67,7 @@ const Project = () => {
         <Col xs={0} md={1}></Col>
         <Col xs={12} md={7}>
         <Card className='card'>
-          <Card.Img variant="top" src="https://user-images.githubusercontent.com/93016157/144180815-ed7b2f82-88bb-4c49-85c9-5bc75bf7c9cf.png" />
+          <Card.Img className="cardImage" variant="top" src="https://user-images.githubusercontent.com/93016157/144180815-ed7b2f82-88bb-4c49-85c9-5bc75bf7c9cf.png" />
           <Card.Body>
             <Card.Title>Date Night</Card.Title>
             <Card.Text>

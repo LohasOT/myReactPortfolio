@@ -13,7 +13,7 @@ const Contact = () => {
     </div>
     <br></br>
     <div className='buttonBox'>
-    <Button className='button' onClick={() => window.location = 'mailto:oliverhoang93@gmail.com'}>Contact Me</Button>
+        <Button className='button' variant="outline-warning" onClick={() => window.location = 'mailto:oliverhoang93@gmail.com'}>Contact Me</Button>
     </div>
       <br></br><br></br><br></br>
     </>
