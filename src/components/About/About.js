@@ -7,6 +7,7 @@ const About = () => {
 
   return (
     <>
+      <br></br><br></br><br></br><br></br>
     <Container fluid>
     <div className="opening">
         <div className='opening'>
