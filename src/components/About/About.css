@@ -39,36 +39,41 @@ h1 {
 .picture {
   max-width: 100%;
   max-height: 100%;
+  transition: 0.3s;
 }
 
-.descript {
-  color: #a8b2d1;
+.picture:hover {
+    transform: scale(1.03, 1.03);
 }
-
-.aboutMe {
-  flex-wrap: wrap;
-}
-
-@media only screen and (max-width: 600px) {
-
-  .title {
-    font-size: 30px;
-  }
-
-  h1 {
-    font-size: 50px;
-  }
 
   .descript {
-    font-size: 30px;
+    color: #a8b2d1;
   }
 
-  .picture {
-    max-width: 200%;
-    max-height: 200%;
+  .aboutMe {
+    flex-wrap: wrap;
   }
 
-  .para {
-    font-size: 15px;
+  @media only screen and (max-width: 600px) {
+
+    .title {
+      font-size: 30px;
+    }
+
+    h1 {
+      font-size: 50px;
+    }
+
+    .descript {
+      font-size: 30px;
+    }
+
+    .picture {
+      max-width: 200%;
+      max-height: 200%;
+    }
+
+    .para {
+      font-size: 15px;
+    }
   }
-}

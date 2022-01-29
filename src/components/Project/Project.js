@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Project.css'
 import { Navbar, Nav, NavDropdown, Container, Image, Row, Col, Card, Button, CardGroup } from 'react-bootstrap';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Project = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000})
+  }, []);
   return (
   <>
 
@@ -21,7 +26,7 @@ const Project = () => {
        {/* card 1 */}
     <Row>
     <Col xs={0} md={1}></Col>
-      <Col xs={12} md={7}>
+    <Col data-aos="flip-up" xs={12} md={7}>
         <Card className='card'>
           <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
@@ -43,8 +48,8 @@ const Project = () => {
         {/* card 2 */}
       <Row>
       <Col xs={0} md={7}  ></Col>
-      <Col xs={12} md={5}>
-        <Card className='card2'>
+          <Col data-aos="fade-down" xs={12} md={5}>
+            <Card className='card2'>
           <Card.Img variant="top" src="https://user-images.githubusercontent.com/91640571/148442022-f6e8c8c4-d5b2-44a0-9259-99378e2b1311.png" />
           <Card.Body>
             <Card.Title>Smarter Barter</Card.Title>
@@ -65,8 +70,8 @@ const Project = () => {
         {/* card 3 */}
       <Row>
         <Col xs={0} md={1}></Col>
-        <Col xs={12} md={7}>
-        <Card className='card'>
+          <Col data-aos="slide-right" xs={12} md={7}>
+            <Card className='card'>
           <Card.Img className="cardImage" variant="top" src="https://user-images.githubusercontent.com/93016157/144180815-ed7b2f82-88bb-4c49-85c9-5bc75bf7c9cf.png" />
           <Card.Body>
             <Card.Title>Date Night</Card.Title>
