@@ -3,8 +3,6 @@ import './Footer.css';
 
 const Footer = () => {
 
-  // Replace links with social media profiles
-
   return (
     <>
     <footer id="foot" className="flex-row px-1">
