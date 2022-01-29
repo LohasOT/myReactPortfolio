@@ -12,7 +12,12 @@
 }
 
 .buttonBox {
-  margin-left: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  align-content: center;
+  justify-content: center;
+  display: flex;
 }
 
 .contactInfo {
@@ -20,9 +25,21 @@
   color: #21fdd1;
 }
 
+.contactBox {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
 @media only screen and (max-width: 600px) {
   .buttonBox {
-    margin-left: 0;
-    margin-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contactBox {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
   }
 }
