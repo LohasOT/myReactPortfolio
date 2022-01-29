@@ -21,7 +21,7 @@ const About = () => {
     </Container>
       <br></br><br></br><br></br><br></br>
     <Container fluid className="aboutMe">
-    <Row>
+    <Row id='aboutMe'>
       <h1 className='title'>1. About Me <hr></hr></h1>
     <Col xs={12} md={6}>
             <main className="about">

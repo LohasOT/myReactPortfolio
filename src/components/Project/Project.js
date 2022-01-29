@@ -14,7 +14,7 @@ const Project = () => {
   <Container fluid>
   <Row>
   <Col xs={5}></Col>
-  <Col xs={7}>
+  <Col id="works" xs={7}>
   <h1 className='title'>2. Here Are My Works
   </h1>
   </Col>
