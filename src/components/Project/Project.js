@@ -28,14 +28,14 @@ const Project = () => {
     <Col xs={0} md={1}></Col>
     <Col data-aos="flip-up" xs={12} md={7}>
         <Card className='card'>
-          <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Img variant="top" class="catPic" src="https://www.markspaneth.com/assets/images/blog/_list_image/02_02_18_508408464_AAB_560x292.jpg" />
           <Card.Body>
             <Card.Title>Pocket Change</Card.Title>
             <Card.Text>
-              I'm still working on this shit CHILL OUT! LMAO KEKW
+              I'm still working on this project. I will update after it is completed
             </Card.Text>
-            <a className='button' rel="noopener noreferrer" target="_blank" href="https://smartbartering.herokuapp.com/login.html"><Button variant="secondary">Deployed Heroku</Button></a>
-            <a className='button' rel="noopener noreferrer" target="_blank" href="https://github.com/LohasOT/bartering"><Button variant="secondary">Github Repo</Button></a>
+                <a className='button' rel="noopener noreferrer" target="_blank" href="https://google.com"><Button variant="secondary">Deployed Heroku</Button></a>
+                <a className='button' rel="noopener noreferrer" target="_blank" href="https://google.com"><Button variant="secondary">Github Repo</Button></a>
           </Card.Body>
         </Card>
         </Col>
@@ -98,35 +98,34 @@ const Project = () => {
   <Container fluid>
         <CardGroup>
           <Card className="card3">
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img variant="top" src="https://user-images.githubusercontent.com/91640571/148659805-4af50c1f-5ee8-44e4-99f0-25abacf76c40.png" />
             <Card.Body>
               <Card.Title>TechBlog</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
+                This project demonstrates how to create a web application where a user can be created and added to a database, the ability to sign in and actively use the website, and the ability to post and comments.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <a className='button' rel="noopener noreferrer" target="_blank" href="https://nameless-chamber-02132.herokuapp.com/login.html"><Button variant="secondary">Deployed Heroku</Button></a>
+              <a className='button' rel="noopener noreferrer" target="_blank" href="https://github.com/LohasOT/TechBlog"><Button variant="secondary">Github Repo</Button></a>
             </Card.Footer>
           </Card>
           <Card className="card3">
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img variant="top" src="https://user-images.githubusercontent.com/91640571/151683692-a5987b89-e534-42f8-89c1-cba2b1cabdfc.png" />
             <Card.Body>
               <Card.Title>SocialNetworkApi</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to additional
-                content.{' '}
+                API for a social network web application where users can share their thoughts, comment to friends’ thoughts, and create a friend list. You’ll use Express.js for routing, a MongoDB database, and the Mongoose ODM.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <a className='button' rel="noopener noreferrer" target="_blank" href="https://github.com/LohasOT/socialApi"><Button variant="secondary">Github Repo</Button></a>
             </Card.Footer>
           </Card>
           <Card className="card3">
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img class="catPic" variant="top" src="https://www.markspaneth.com/assets/images/blog/_list_image/02_02_18_508408464_AAB_560x292.jpg" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>I will put another project here later</Card.Title>
               <Card.Text>
                 This is a wider card with supporting text below as a natural lead-in to
                 additional content. This card has even longer content than the first to
@@ -134,7 +133,8 @@ const Project = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <a className='button' rel="noopener noreferrer" target="_blank" href="https://google.com"><Button variant="secondary">Deployed Heroku</Button></a>
+              <a className='button' rel="noopener noreferrer" target="_blank" href="https://google.com"><Button variant="secondary">Github Repo</Button></a>
             </Card.Footer>
           </Card>
         </CardGroup>
