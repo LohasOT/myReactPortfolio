@@ -1,6 +1,6 @@
 import React from 'react';
 import "./About.css";
-import myPicture from "../../assets/cover/pic.jpg"
+import myPicture from "../../assets/cover/photo.jpg"
 import { Navbar, Nav, NavDropdown, Container, Image, Row, Col } from 'react-bootstrap';
 
 const About = () => {
