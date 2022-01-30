@@ -33,13 +33,16 @@ const Contact = () => {
             />
           </FloatingLabel>
           <Button variant="outline-warning" type="submit">
-          Submit
+          Submit Your Message
         </Button>
       </Form>
     </Container>
-      <br></br><br></br><br></br>
+      <br></br>
+      <p className='or'>Or</p>
+      <br></br>
     <div className='buttonBox'>
-        <Button className='button' variant="outline-warning" onClick={() => window.location = 'mailto:oliverhoang93@gmail.com'}>Contact Me</Button>
+        
+        <Button className='button' variant="outline-warning" onClick={() => window.location = 'mailto:oliverhoang93@gmail.com'}>Email Me</Button>
     </div>
       <br></br><br></br><br></br>
     </>

@@ -16,6 +16,10 @@ h1 {
   color: #ccd6f6;
 }
 
+.line {
+  color: #ccd6f6;
+}
+
 .container {
   background-color: #0E3B43;
 }
@@ -40,40 +44,41 @@ h1 {
   max-width: 100%;
   max-height: 100%;
   transition: 0.3s;
+  box-shadow: 8px 8px;
 }
 
 .picture:hover {
-    transform: scale(1.03, 1.03);
+  transform: scale(1.03, 1.03);
 }
 
+.descript {
+  color: #a8b2d1;
+}
+
+.aboutMe {
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .title {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
   .descript {
-    color: #a8b2d1;
+    font-size: 30px;
   }
 
-  .aboutMe {
-    flex-wrap: wrap;
+  .picture {
+    max-width: 200%;
+    max-height: 200%;
   }
 
-  @media only screen and (max-width: 600px) {
-
-    .title {
-      font-size: 30px;
-    }
-
-    h1 {
-      font-size: 50px;
-    }
-
-    .descript {
-      font-size: 30px;
-    }
-
-    .picture {
-      max-width: 200%;
-      max-height: 200%;
-    }
-
-    .para {
-      font-size: 15px;
-    }
+  .para {
+    font-size: 15px;
   }
+}

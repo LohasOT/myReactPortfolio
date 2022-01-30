@@ -91,7 +91,7 @@ const Project = () => {
     <hr className='title'></hr>
     </div>
     <div className='link'>
-    <a rel="noopener noreferrer" target="_blank" href='https://github.com/LohasOT?tab=repositories'>View The Rest On Github Repo</a>
+    <a rel="noopener noreferrer" target="_blank" href='https://github.com/LohasOT?tab=repositories'>View The Rest On My Github Repo</a>
     </div>
   </Container >
     <br></br><br></br><br></br><br></br><br></br>

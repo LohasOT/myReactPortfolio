@@ -35,10 +35,16 @@
   color: #21fdd1;
 }
 
+.or {
+  text-align: center;
+  color: #21fdd1;
+}
+
 .containerForm {
   text-align: center;
   max-width: 40%;
 }
+
 @media only screen and (max-width: 600px) {
   .buttonBox {
     margin-left: auto;
@@ -50,7 +56,8 @@
     margin-left: auto;
     width: 80%;
   }
-  .containerForm{
+
+  .containerForm {
     max-width: 100%;
   }
 }

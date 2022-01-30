@@ -22,7 +22,13 @@ const About = () => {
       <br></br><br></br><br></br><br></br>
     <Container fluid className="aboutMe">
     <Row id='aboutMe'>
-      <h1 className='title'>1. About Me <hr></hr></h1>
+      <Col xs={1} md={1}></Col>
+      <Col xs={11} md={11}>
+      <h1 className='title'>1. About Me</h1>
+      </Col>
+    </Row>
+          <hr className='line'></hr>
+    <Row>
     <Col xs={0} md={1}></Col>
     <Col xs={12} md={5}>
             <main className="about">
