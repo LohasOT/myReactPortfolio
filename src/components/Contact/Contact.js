@@ -32,7 +32,7 @@ const Contact = () => {
               style={{ height: '100px' }}
             />
           </FloatingLabel>
-        <Button variant="primary" type="submit">
+          <Button variant="outline-warning" type="submit">
           Submit
         </Button>
       </Form>
