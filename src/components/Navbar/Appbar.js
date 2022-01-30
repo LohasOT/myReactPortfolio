@@ -30,7 +30,7 @@ const Appbar = () => {
               <Nav.Link className="links" href="#aboutMe">1. About</Nav.Link>
               <Nav.Link className="links" href="#works">2. Works</Nav.Link>
               <Nav.Link className="links" href="#contactMe">3. Contact Me</Nav.Link>
-              <Nav.Link className="links" href="#link">4. Resume</Nav.Link>
+              <Nav.Link className="links" href="https://drive.google.com/file/d/1UaWheTlK86hTOvKGw-O00H0n2pOZEg6W/view?usp=sharing">4. Resume</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
