@@ -19,3 +19,10 @@ footer a {
   display: flex;
   flex-wrap: wrap;
 }
+
+.footer {
+  width: 100%;
+  text-align: center;
+  color: #21fdd1;
+  background-color: #0E3B43;
+}

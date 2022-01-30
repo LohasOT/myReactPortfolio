@@ -23,7 +23,8 @@ const About = () => {
     <Container fluid className="aboutMe">
     <Row id='aboutMe'>
       <h1 className='title'>1. About Me <hr></hr></h1>
-    <Col xs={12} md={6}>
+    <Col xs={0} md={1}></Col>
+    <Col xs={12} md={5}>
             <main className="about">
               <h2 className="para">I am an experienced coding bootcamp graduate with extensive background in Javascript, HTMLContainer, CSS, developing mobile friendly web applications, and building websites from the ground up.</h2>
               <h2 className="para">Professional strengths include creative problem-solving, written and verbal communication, and time management.</h2>
