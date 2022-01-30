@@ -50,4 +50,7 @@
     margin-left: auto;
     width: 80%;
   }
+  .containerForm{
+    max-width: 100%;
+  }
 }
