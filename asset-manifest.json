@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/LohasOT/myReactPortfolio/static/css/main.a167dd1c.css",
+    "main.js": "/LohasOT/myReactPortfolio/static/js/main.860bcb23.js",
+    "static/media/photo.jpg": "/LohasOT/myReactPortfolio/static/media/photo.56d9a2ffe7b7cfaf4198.jpg",
+    "index.html": "/LohasOT/myReactPortfolio/index.html",
+    "main.a167dd1c.css.map": "/LohasOT/myReactPortfolio/static/css/main.a167dd1c.css.map",
+    "main.860bcb23.js.map": "/LohasOT/myReactPortfolio/static/js/main.860bcb23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a167dd1c.css",
+    "static/js/main.860bcb23.js"
+  ]
+}
