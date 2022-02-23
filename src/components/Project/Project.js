@@ -28,14 +28,16 @@ const Project = () => {
     <Col xs={0} md={1}></Col>
     <Col data-aos="flip-up" xs={12} md={7}>
         <Card className='card'>
-              <Card.Img variant="top" class="catPic" src="https://www.markspaneth.com/assets/images/blog/_list_image/02_02_18_508408464_AAB_560x292.jpg" />
+              <Card.Img variant="top" class="catPic" src="https://user-images.githubusercontent.com/91640571/152278371-86da6352-6cd6-489d-927e-ca93552cf7a7.png" />
           <Card.Body>
             <Card.Title>Pocket Change</Card.Title>
             <Card.Text>
-              I'm still working on this project. I will update after it is completed
+              Pocket Change is a budgeting app that helps users track their expenses on a month to month basis. The user will calculate their income for expenses by inputting their expendable income for the month and percentage that they would like to save for the month. The user will then create their expense report by inputting the category, the goal of how much they would like to spend and what their actual expense was. It will then generate a report.
+                  <br></br><br></br>
+              <p className="tags">Javascript Dotenv MongoDB Sequelize Passport JsonWebToken React</p>
             </Card.Text>
-                <a className='button' rel="noopener noreferrer" target="_blank" href="https://google.com"><Button variant="secondary">Deployed Heroku</Button></a>
-                <a className='button' rel="noopener noreferrer" target="_blank" href="https://google.com"><Button variant="secondary">Github Repo</Button></a>
+                <a className='button' rel="noopener noreferrer" target="_blank" href="https://pocketchange.herokuapp.com"><Button variant="secondary">Deployed Heroku</Button></a>
+                <a className='button' rel="noopener noreferrer" target="_blank" href="https://github.com/LohasOT/pocket-change"><Button variant="secondary">Github Repo</Button></a>
           </Card.Body>
         </Card>
         </Col>
@@ -54,9 +56,9 @@ const Project = () => {
           <Card.Body>
             <Card.Title>Smarter Barter</Card.Title>
             <Card.Text>
-              This project demonstrates how to create a web application where a user can be created and added to a database, the ability to sign in and actively use the website, and the ability to post items and comments.
+              Smarter Barter is a trading or bartering app that helps users to trade for items that they are interested in. Users can use their own money or an item that they own to trade for another item that is listed. Users can post their items, comment on the items that they are interested in, and mark their items as traded or not.
               <br></br><br></br>
-              <p className="tags">Javascript Dotenv Mysql Sequelize Passport JsonWebToken</p>
+              <p className="tags">Javascript Dotenv Mysql Sequelize Passport JsonWebToken HTML CSS</p>
             </Card.Text>
             <a className='button' rel="noopener noreferrer" target="_blank" href="https://smartbartering.herokuapp.com/login.html"><Button variant="secondary">Deployed Heroku</Button></a>
             <a className='button' rel="noopener noreferrer" target="_blank" href="https://github.com/LohasOT/bartering"><Button variant="secondary">Github Repo</Button></a>
@@ -76,9 +78,11 @@ const Project = () => {
           <Card.Body>
             <Card.Title>Date Night</Card.Title>
             <Card.Text>
-              An application where you can find a random food with random movie to have a perfect Date Night with your significant one. 
+              An application where you can find a random food with random movie to have a perfect Date Night with your significant one.
+              <br></br><br></br>
+              <p className="tags">Javascript API HTML CSS</p> 
             </Card.Text>
-            <a className='button' rel="noopener noreferrer" target="_blank" href="https://lohasot.github.io/project-ghoat/"><Button variant="secondary">Deployed Heroku</Button></a>
+            <a className='button' rel="noopener noreferrer" target="_blank" href="https://lohasot.github.io/project-ghoat/"><Button variant="secondary">Deployed Page</Button></a>
             <a className='button' rel="noopener noreferrer" target="_blank" href="https://github.com/LohasOT/project-ghoat"><Button variant="secondary">Github Repo</Button></a>
           </Card.Body>
         </Card>
@@ -90,8 +94,9 @@ const Project = () => {
     <h1 className='title2'>Other Noteworthy Works</h1>
     <hr className='title'></hr>
     </div>
+    <br></br>
     <div className='link'>
-    <a rel="noopener noreferrer" target="_blank" href='https://github.com/LohasOT?tab=repositories'>View The Rest On My Github Repo</a>
+      <Button className='button' variant="outline-warning" rel="noopener noreferrer" target="_blank" href='https://github.com/LohasOT?tab=repositories'>View The Rest On My Github Repo</Button>
     </div>
   </Container >
     <br></br><br></br><br></br><br></br><br></br>
@@ -103,6 +108,8 @@ const Project = () => {
               <Card.Title>TechBlog</Card.Title>
               <Card.Text>
                 This project demonstrates how to create a web application where a user can be created and added to a database, the ability to sign in and actively use the website, and the ability to post and comments.
+                <br></br><br></br>
+                <p className="tags">Javascript Dotenv Mysql Sequelize Passport JsonWebToken HTML CSS</p>
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -116,6 +123,8 @@ const Project = () => {
               <Card.Title>SocialNetworkApi</Card.Title>
               <Card.Text>
                 API for a social network web application where users can share their thoughts, comment to friends’ thoughts, and create a friend list. You’ll use Express.js for routing, a MongoDB database, and the Mongoose ODM.
+              <br></br><br></br>
+              <p className="tags">Javascript Dotenv MongoDB Sequelize Passport JsonWebToken HTML CSS</p>
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -123,18 +132,17 @@ const Project = () => {
             </Card.Footer>
           </Card>
           <Card className="card3">
-            <Card.Img class="catPic" variant="top" src="https://www.markspaneth.com/assets/images/blog/_list_image/02_02_18_508408464_AAB_560x292.jpg" />
+            <Card.Img class="catPic" variant="top" src="https://user-images.githubusercontent.com/91640571/147063641-eb8a1626-69a0-4361-b9d6-5d7f6cfc930b.png" />
             <Card.Body>
-              <Card.Title>I will put another project here later</Card.Title>
+              <Card.Title>E-commerce</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This card has even longer content than the first to
-                show that equal height action.
+                The back end of a retail company that include many products and inventory.
+                <br></br><br></br>
+                <p className="tags">Javascript Dotenv Sequelize Passport JsonWebToken</p>
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <a className='button' rel="noopener noreferrer" target="_blank" href="https://google.com"><Button variant="secondary">Deployed Heroku</Button></a>
-              <a className='button' rel="noopener noreferrer" target="_blank" href="https://google.com"><Button variant="secondary">Github Repo</Button></a>
+              <a className='button' rel="noopener noreferrer" target="_blank" href="https://github.com/LohasOT/-E-Commerce-Back-End"><Button variant="secondary">Github Repo</Button></a>
             </Card.Footer>
           </Card>
         </CardGroup>
