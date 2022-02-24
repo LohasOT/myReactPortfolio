@@ -8,23 +8,11 @@ const About = () => {
   return (
     <>
       <br></br><br></br><br></br><br></br>
-    <Container fluid>
-    <div className="opening">
-        <div className='opening'>
-          <h2>Hi, my name is</h2>
-          <h1>Oliver Hoang</h1>
-          <h1 className="descript">Full-Stack Web Developer</h1>
-          <h2>An experienced coding bootcamp graduate with extensive background in Javascript, developing, and building mobile first web applications. </h2>
-        </div>
-    </div>
-    <div className="empty"></div>
-    </Container>
-      <br></br><br></br><br></br><br></br>
     <Container fluid className="aboutMe">
     <Row id='aboutMe'>
       <Col xs={1} md={1}></Col>
       <Col xs={11} md={11}>
-      <h1 className='title'>1. About Me</h1>
+      <h1 className='title'>About Me</h1>
       </Col>
     </Row>
           <hr className='line'></hr>
@@ -32,13 +20,24 @@ const About = () => {
     <Col xs={0} md={1}></Col>
     <Col xs={12} md={5}>
             <main className="about">
-              <h2 className="para">I am an experienced coding bootcamp graduate with extensive background in Javascript, HTMLContainer, CSS, developing mobile friendly web applications, and building websites from the ground up.</h2>
+              <h2 className="para">I am an experienced coding bootcamp graduate with extensive background in Javascript, HTML, CSS, developing mobile friendly web applications, and building websites from the ground up.</h2>
               <h2 className="para">Professional strengths include creative problem-solving, written and verbal communication, and time management.</h2>
               <h2 className="para"> Here are some of the techologies I worked with before:</h2>
             </main>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node.js</li>
+            <li className="para">HTML</li>
+            <li className="para">CSS</li>
+            <li className="para">JavaScript</li>
+            <li className="para">jQuery</li>
+            <li className="para">responsive design</li>
+            <li className="para">React</li>
+            <li className="para">Bootstrap</li>
+            <li className="para">APIs</li>
+            <li className="para">Node</li>
+            <li className="para">Express</li>
+            <li className="para">MySQL, Sequelize</li>
+            <li className="para">MongoDB, Mongoose</li>
+            <li className="para">REST</li>
+            <li className="para">GraphQL</li>
       </Col>
     <Col xs={0} md={1}></Col>
     <Col xs={6} md={5}>

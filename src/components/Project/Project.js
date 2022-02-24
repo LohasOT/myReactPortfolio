@@ -15,8 +15,7 @@ const Project = () => {
   <Row>
   <Col xs={5}></Col>
   <Col id="works" xs={7}>
-  <h1 className='title'>2. Here Are My Works
-  </h1>
+  <h1 className='title'>Here Are My Works</h1>
   </Col>
   </Row>
   <hr className='title'></hr>
@@ -25,8 +24,7 @@ const Project = () => {
 
        {/* card 1 */}
     <Row>
-    <Col xs={0} md={1}></Col>
-    <Col data-aos="flip-up" xs={12} md={7}>
+    <Col data-aos="flip-up" xs={12} md={4}>
         <Card className='card'>
               <Card.Img variant="top" class="catPic" src="https://user-images.githubusercontent.com/91640571/152278371-86da6352-6cd6-489d-927e-ca93552cf7a7.png" />
           <Card.Body>
@@ -41,16 +39,9 @@ const Project = () => {
           </Card.Body>
         </Card>
         </Col>
-      <Col xs={0} md={4}  ></Col>
-    </Row>
-
-
-        <br></br><br></br>
 
         {/* card 2 */}
-      <Row>
-      <Col xs={0} md={7}  ></Col>
-          <Col data-aos="fade-down" xs={12} md={5}>
+          <Col data-aos="fade-down" xs={12} md={4}>
             <Card className='card2'>
           <Card.Img variant="top" src="https://user-images.githubusercontent.com/91640571/148442022-f6e8c8c4-d5b2-44a0-9259-99378e2b1311.png" />
           <Card.Body>
@@ -59,42 +50,40 @@ const Project = () => {
               Smarter Barter is a trading or bartering app that helps users to trade for items that they are interested in. Users can use their own money or an item that they own to trade for another item that is listed. Users can post their items, comment on the items that they are interested in, and mark their items as traded or not.
               <br></br><br></br>
               <p className="tags">Javascript Dotenv Mysql Sequelize Passport JsonWebToken HTML CSS</p>
+              <br></br>
             </Card.Text>
             <a className='button' rel="noopener noreferrer" target="_blank" href="https://smartbartering.herokuapp.com/login.html"><Button variant="secondary">Deployed Heroku</Button></a>
             <a className='button' rel="noopener noreferrer" target="_blank" href="https://github.com/LohasOT/bartering"><Button variant="secondary">Github Repo</Button></a>
           </Card.Body>
         </Card>
       </Col>
-      </Row>
-        <br></br><br></br>
-
 
         {/* card 3 */}
-      <Row>
-        <Col xs={0} md={1}></Col>
-          <Col data-aos="slide-right" xs={12} md={7}>
+          <Col data-aos="slide-right" xs={12} md={4}>
             <Card className='card'>
           <Card.Img className="cardImage" variant="top" src="https://user-images.githubusercontent.com/93016157/144180815-ed7b2f82-88bb-4c49-85c9-5bc75bf7c9cf.png" />
           <Card.Body>
             <Card.Title>Date Night</Card.Title>
             <Card.Text>
-              An application where you can find a random food with random movie to have a perfect Date Night with your significant one.
-              <br></br><br></br>
+                  <p>An application where you can find a random food with random movie to have a perfect Date Night with your significant one.</p>
+              <p>To get started, just input the main ingredient of a dish that you would like to use and you will be presented with a delicious recipe. A random movie with info related to the film is presented side by side next to the dish.</p>
+
               <p className="tags">Javascript API HTML CSS</p> 
             </Card.Text>
+                <br></br><br></br><br></br>
+
             <a className='button' rel="noopener noreferrer" target="_blank" href="https://lohasot.github.io/project-ghoat/"><Button variant="secondary">Deployed Page</Button></a>
             <a className='button' rel="noopener noreferrer" target="_blank" href="https://github.com/LohasOT/project-ghoat"><Button variant="secondary">Github Repo</Button></a>
           </Card.Body>
         </Card>
         </Col>
-        <Col xs={0} md={4}  ></Col>
       </Row>
     <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
     <div>
     <h1 className='title2'>Other Noteworthy Works</h1>
     <hr className='title'></hr>
     </div>
-    <br></br>
+        <br></br>    <br></br>    <br></br>
     <div className='link'>
       <Button className='button' variant="outline-warning" rel="noopener noreferrer" target="_blank" href='https://github.com/LohasOT?tab=repositories'>View The Rest On My Github Repo</Button>
     </div>
@@ -103,7 +92,7 @@ const Project = () => {
   <Container fluid>
         <CardGroup>
           <Card className="card3">
-            <Card.Img variant="top" src="https://user-images.githubusercontent.com/91640571/148659805-4af50c1f-5ee8-44e4-99f0-25abacf76c40.png" />
+            <Card.Img variant="top" height="350" src="https://user-images.githubusercontent.com/91640571/148659805-4af50c1f-5ee8-44e4-99f0-25abacf76c40.png" />
             <Card.Body>
               <Card.Title>TechBlog</Card.Title>
               <Card.Text>
@@ -138,7 +127,7 @@ const Project = () => {
               <Card.Text>
                 The back end of a retail company that include many products and inventory.
                 <br></br><br></br>
-                <p className="tags">Javascript Dotenv Sequelize Passport JsonWebToken</p>
+                <p className="tags">Javascript Sequelize Passport MySql</p>
               </Card.Text>
             </Card.Body>
             <Card.Footer>

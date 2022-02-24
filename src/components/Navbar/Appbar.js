@@ -27,10 +27,10 @@ const Appbar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link className="links" href="#aboutMe">1. About</Nav.Link>
-              <Nav.Link className="links" href="#works">2. Works</Nav.Link>
-              <Nav.Link className="links" href="#contactMe">3. Contact Me</Nav.Link>
-              <Nav.Link className="links" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1DvWV4wpITVhZVyjQkzXxSumAnaMgZwLP/view?usp=sharing">4. Resume</Nav.Link>
+              <Nav.Link className="links" href="#aboutMe">About</Nav.Link>
+              <Nav.Link className="links" href="#works">Works</Nav.Link>
+              <Nav.Link className="links" href="#contactMe">Contact Me</Nav.Link>
+              <Nav.Link className="links" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1DvWV4wpITVhZVyjQkzXxSumAnaMgZwLP/view?usp=sharing">Resume</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
