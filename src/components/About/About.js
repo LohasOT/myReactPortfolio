@@ -24,6 +24,10 @@ const About = () => {
               <h2 className="para">Professional strengths include creative problem-solving, written and verbal communication, and time management.</h2>
               <h2 className="para"> Here are some of the techologies I worked with before:</h2>
             </main>
+            <br></br>
+            <Row>
+              <Col xs={6} md={6}>
+            <h3 className="para" >Front-end Proficiencies</h3>
             <li className="para">HTML</li>
             <li className="para">CSS</li>
             <li className="para">JavaScript</li>
@@ -31,6 +35,9 @@ const About = () => {
             <li className="para">responsive design</li>
             <li className="para">React</li>
             <li className="para">Bootstrap</li>
+              </Col>
+              <Col xs={6} md={6}>
+            <h3 className="para">Back-end Proficiencies</h3>
             <li className="para">APIs</li>
             <li className="para">Node</li>
             <li className="para">Express</li>
@@ -38,6 +45,9 @@ const About = () => {
             <li className="para">MongoDB, Mongoose</li>
             <li className="para">REST</li>
             <li className="para">GraphQL</li>
+            </Col>
+            </Row>
+            <br></br>
       </Col>
     <Col xs={0} md={1}></Col>
     <Col xs={6} md={5}>
